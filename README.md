@@ -1,4 +1,4 @@
-![Logo](bash.png)
+![Logo](bash_logo.png)
 # Remote Term Bash
 ## Remote Bash is for browser
 
