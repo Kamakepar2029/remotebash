@@ -5,7 +5,10 @@ import os
 import pty
 import fcntl
 
-po = int(input('Enter port to listen: '))
+try:
+  po = int(open('port.txt','r').read())
+except:
+  po = int(input('Enter port to listen: '))
 async def websocket_handler(request):
 
     ws = web.WebSocketResponse()
